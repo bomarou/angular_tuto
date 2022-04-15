@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-roots',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+ // styleUrls: ['./app.component.scss']
+  styles :[`
+    p{
+    color:red;
+  }`]
 })
 export class AppComponent {
-  title = 'test_app';
+  name = 'test_app';
 }
